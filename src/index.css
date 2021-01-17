@@ -1,0 +1,21 @@
+#bookstable {
+    font-family: Times New Roman, Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #bookstable td, #bookstable th {
+    border: 1px solid #ddd;
+    padding:2px;
+  }
+  
+  #bookstable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #bookstable tr:hover {background-color: #ddd;}
+  
+  #bookstable th {
+     font-size: 22px; 
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
